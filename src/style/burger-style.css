@@ -1,0 +1,66 @@
+p {
+  color: white;
+  font-size:50px;
+  font-family: Volkorn-Semibold;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-burger{
+  width: 734px;
+  height: 438px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  
+}
+.burger{
+  position:absolute;
+}
+.arrows{
+  position:absolute;
+}
+
+.ingredients{
+  display: grid;
+  width: 100%; /* por que este valor no aumenta aaaaaaaaaaaaa */
+  height: 110%;
+  grid-template-columns: repeat(20,5%);
+  grid-template-rows: repeat(20,5%);
+  align-items: center;
+}
+.bread{
+  grid-area: 2/15 / 4/18;
+}
+.sauce{
+  margin-bottom: 10px;
+  grid-area: 2/4 / 5/8;
+}
+.becon{
+  grid-area: 9/4 / 11/9;
+}
+.onion{
+  grid-area: 5/17 / 8/21;
+}
+.cheese{
+  grid-area: 10/16 / 13/20;
+}
+.meat{
+  grid-area: 16/15 / 18/19;
+}
+.tomato{
+  margin-left: -30px;
+  margin-top: 10px;
+  grid-area: 11/1 / 13/5;
+}
+.lettuce{
+  grid-area: 15/3 / 17/8;
+}
