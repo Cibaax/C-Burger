@@ -6,13 +6,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  white-space: nowrap;
   
   
 }
 
 html{
- background: /* url('../src/img/background.png') */cadetblue;
+ background: /* url('../src/img/background.png') */rgb(51, 58, 58);
   
 }
 img {

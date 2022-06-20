@@ -1,0 +1,39 @@
+.card{
+  width: 100vw;
+  height: 50px;
+  position: relative;
+}
+.card-blur{
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  bottom:35px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 0 10px;
+  border: white 1px solid;
+  backdrop-filter: blur(4px);
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(20,5%);
+  grid-template-rows: repeat(2,50%);
+  align-items: center;
+}
+.facebook{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  grid-area: 1/20 / 3/21;
+}
+.whatsapp{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  grid-area: 1/19 / 3/20;
+}
+
+.instagram{
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  grid-area: 1/18 / 3/19;
+}
